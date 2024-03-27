@@ -1,12 +1,6 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club - Case Study
+> This project is to build Univariate and Bivariate analysis and understand the probablities or cases when a customer can default on loan payment
 
-
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
@@ -19,30 +13,29 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+### Based on correlation graph below are the observations
+- There is high degree of correlation between 'pub_rec' and 'pub_rec_bankruptcies'
+- There is high degree of correlation between 'installment', 'funded_amnt_inv', 'loan_amnt' and 'funded_amnt'
+###Based on above countplots the probablity of customers defaulting is when
+- Customers having house_ownership as 'RENT'
+- When the purpose is 'debt_consolidation'
+- Customers with employement length of 10
+- Customers availaing term of 36 months
+- When the loan status is 'Not verified'
+- When the number of derogatory public records is 0
+- When the 'annual_inc' is in the range of 35K - 60K appx
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@devashish-parmar] - feel free to contact me!
 
 
 <!-- Optional -->
